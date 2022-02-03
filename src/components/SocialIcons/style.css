@@ -1,0 +1,19 @@
+.icons {
+  display: flex;
+  position: fixed;
+  height: 39%;
+  bottom: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 3;
+}
+a:hover {
+  /* color: linear-gradient(90deg, #00f5a0, #00d9f5); */
+  color: #00d9f5;
+}
+.line {
+  width: 2px;
+  height: 30%;
+  background-color: white;
+}
