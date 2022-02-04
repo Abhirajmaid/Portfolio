@@ -25,4 +25,14 @@
   width: 100%;
   display: flex;
   justify-content: space-evenly;
+  z-index: 3;
+}
+.lightdiv {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  right: 50%;
+  background-color: white;
 }

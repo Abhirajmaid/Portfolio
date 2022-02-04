@@ -1,13 +1,18 @@
 .nav-link {
   text-decoration: none;
-  color: white;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 34px;
 }
 .nav-link:hover {
-  color: #00d9f5;
-  /* background-color: linear-gradient(90deg, #00f5a0, #00d9f5); */
   font-size: 13px;
 }
+
+/* 
+!gradient is not working for some reason.
+# color: linear-gradient(90deg, #00f5a0, #00d9f5); 
+.nav-link:hover {
+   here => color: #00d9f5;
+}
+*/

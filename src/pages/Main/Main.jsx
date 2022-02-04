@@ -1,7 +1,7 @@
 import React from "react";
 import { SocialIcons } from "../../components/SocialIcons/SocialIcons";
 import { Nav } from "../../components/Nav/Nav";
-// import styled from "styled-components";
+import { Intro } from "../../components/Intro/Intro";
 import "./style.css";
 
 export const Main = () => {
@@ -9,23 +9,25 @@ export const Main = () => {
     <>
       <div className="container">
         <div className="main-container">
-          <SocialIcons />
+          <SocialIcons color="black" />
           <div className="blog">
-            <Nav pagename="Blog" />
+            <Nav pagename="Blog" color="white" />
           </div>
           <div className="work">
-            <Nav pagename="Work" />
+            <Nav pagename="Work" color="black" />
           </div>
           <div className="BottomNav">
             <div>
-              <Nav pagename="Skills" />
+              <Nav pagename="About" color="black" />
             </div>
             <div>
-              <Nav pagename="About" />
+              <Nav pagename="Skills" color="white" />
             </div>
           </div>
         </div>
+        <Intro />
       </div>
+      <div className="lightdiv" color="black"></div>
     </>
   );
 };
