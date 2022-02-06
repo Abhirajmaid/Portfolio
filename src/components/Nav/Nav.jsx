@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import { motion } from "framer-motion";
 
 export const Nav = (prop) => {
   return (
@@ -7,8 +8,11 @@ export const Nav = (prop) => {
       href={`/${prop.pagename}`}
       className="nav-link"
       style={{ color: prop.color }}
+      whileHover={{ scale: 1.1 }}
     >
-      <h2>{prop.pagename}</h2>
+      <motion.h2 whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+        {prop.pagename}
+      </motion.h2>
     </a>
   );
 };

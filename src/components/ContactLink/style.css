@@ -1,0 +1,12 @@
+.contact {
+  display: inline-block;
+  color: white;
+  position: fixed;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  top: 2rem;
+  cursor: pointer;
+  right: 110px;
+  z-index: 3;
+}

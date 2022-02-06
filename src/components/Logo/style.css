@@ -1,0 +1,9 @@
+.logo {
+  display: inline-block;
+  font-family: "Pacifico", cursive;
+  position: fixed;
+  font-size: 22px;
+  font-weight: bold;
+  top: 2rem;
+  z-index: 3;
+}

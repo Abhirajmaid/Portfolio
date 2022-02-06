@@ -1,7 +1,9 @@
 import React from "react";
 import { SocialIcons } from "../../components/SocialIcons/SocialIcons";
+import { Logo } from "../../components/Logo/Logo";
 import { Nav } from "../../components/Nav/Nav";
 import { Intro } from "../../components/Intro/Intro";
+import { ContactLink } from "../../components/ContactLink/ContactLink";
 import "./style.css";
 
 export const Main = () => {
@@ -24,6 +26,8 @@ export const Main = () => {
               <Nav pagename="Skills" color="white" />
             </div>
           </div>
+          <ContactLink />
+          <Logo color="black" />
         </div>
         <Intro />
       </div>
