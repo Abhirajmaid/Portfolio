@@ -6,7 +6,6 @@ import { BlogCard } from "../../components/BlogCard/BlogCard";
 import ScrollAnchore from "../../components/ScrollAnchor/ScrollAnchor";
 import { BigTitle } from "../../components/BigTitle/BigTitle";
 import "./style.css";
-import { Opacity } from "tsparticles/Options/Classes/Particles/Opacity/Opacity";
 
 export const Blog = () => {
   const [numbers, setNumbers] = useState(0);
