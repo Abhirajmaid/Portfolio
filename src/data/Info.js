@@ -11,18 +11,51 @@ export const IntroInfo = () => {
   );
 };
 export const AboutInfo = () => {
+  const style = {
+    textDecoration: "none",
+    color: "aqua",
+  };
   return (
     <>
       <p>
         I'm Programming enthusiast. Who loves Web-Development and I'm
-        Web-Developer myself. Work with JavaScript, React, context api, and lot
-        other technologies. I have leadership qualities Run NEWS media company
-        Eternalmac.com where I lead team of 4 people (including publishers,
-        writers, tech guys). Currently learning Blockchain technology 😍.
-        Working on big Web3 and Blockchain Project. Blockchain and the
-        metaverse, is something I'm totally looking forward to work on. I also
-        do 3d designing and animations with software like Blender for fun. I
-        have few good projects too. Love listening POP songs 🎧 😅
+        Web-Developer myself.
+        <br />
+        <br />
+        Work with JavaScript, React, and lot other technologies. checkout my{" "}
+        <a href="/Skills" target="_blank" style={style}>
+          Skills Page
+        </a>
+        <br />
+        <br /> I also Run NEWS media company{" "}
+        <a
+          href="https://www.eternalmac.com"
+          target="_blank"
+          style={style}
+          rel="noreferrer"
+        >
+          Eternalmac.com{" "}
+        </a>
+        <br />
+        <br />
+        Currently learning Blockchain, web3 technologies😍. <br /> I also do 3d
+        designing and animations with Blender for fun. I have few good{" "}
+        <a
+          href="https://www.artstation.com/codersground404"
+          target="_blank"
+          style={style}
+          rel="noreferrer"
+        >
+          projects
+        </a>
+        too.
+        <br />
+        <br />
+        Feel free to{" "}
+        <a href="/contact" style={style}>
+          Contact ME{" "}
+        </a>
+        We can listen to some POP music 🎧🤗
       </p>
     </>
   );

@@ -3,7 +3,7 @@ import { HomePage } from "./pages/HomePage/HomePage";
 import { Main } from "./pages/Main/Main";
 import { Blog } from "./pages/Blog/Blog";
 import { Skills } from "./pages/Skills/Skills";
-// import { About } from "./pages/About/About";
+import { About } from "./pages/About/About";
 import GlobalStyle from "./Global/globalstyles";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 export const App = () => {
@@ -17,6 +17,7 @@ export const App = () => {
           <Route exact path="/Home" element={<HomePage />} />
           <Route exact path="/Blog" element={<Blog />} />
           <Route exact path="/Skills" element={<Skills />} />
+          <Route exact path="/About" element={<About />} />
         </Routes>
       </Router>
     </>
