@@ -1,0 +1,14 @@
+.btn {
+  margin-top: 18px;
+  padding: 10px 8px;
+  width: 20vw;
+  border: none;
+  background: linear-gradient(90deg, #00f5a0 0%, #00d9f5 100%);
+  box-shadow: 0px 0px 11px 5px rgba(255, 255, 255, 0.25);
+  border-radius: 21px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
