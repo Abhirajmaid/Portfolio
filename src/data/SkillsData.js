@@ -1,0 +1,41 @@
+export const SkillsData = [
+  {
+    id: 1,
+    title: "Frontend",
+    icon: "bi:code-slash",
+    discription:
+      "I value business or brand for which i'm creating, thus i enjoy bringing new ideas to life.",
+    skills: [
+      "HTML5-CSS3",
+      "JavaScript",
+      "GIT",
+      "React",
+      "react-router",
+      "API",
+      "npm",
+      "SASS",
+      "styled-components",
+      "Firebase",
+    ],
+    tools: ["VScode", "GitHub", "Codepen"],
+  },
+  {
+    id: 2,
+    title: "Backend",
+    icon: "bx:bxs-server",
+    discription: "Lorem ipsum dolor sit amet, consectetur adi ",
+    skills: [
+      "HTML5-CSS3",
+      "JavaScript",
+      "GIT",
+      "React",
+      "react-router",
+      "API",
+      "npm",
+      "SASS",
+      "styled-components",
+      "Firebase",
+    ],
+    tools: ["VScode", "GitHub", "Codepen"],
+  },
+];
