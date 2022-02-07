@@ -6,6 +6,7 @@
   padding: 18px;
   border: 1px solid white;
   background-color: transparent;
+  backdrop-filter: blur(4px);
   cursor: pointer;
 }
 .card:hover {

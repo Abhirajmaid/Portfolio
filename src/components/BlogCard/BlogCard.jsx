@@ -9,13 +9,13 @@ export const BlogCard = (prop) => {
   });
   return (
     <>
-      <div className="card">
+      <a href={link} target="_blank" className="card" rel="noreferrer">
         <img src={`${imgSrc}`} alt="blogImage" className="blog-img" />
         <h3 className="blog-title">{name}</h3>
         <hr className="divider" />
         <div className="tags">{Tags}</div>
         <span className="blog-date">{date}</span>
-      </div>
+      </a>
     </>
   );
 };
