@@ -48,7 +48,7 @@
 .skills {
   color: aqua;
   margin-bottom: 18px;
-  font-size: 18px;
+  font-size: calc(0.8em + 0.3vw);
   font-weight: 400;
 }
 .tools-title {

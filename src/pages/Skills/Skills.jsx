@@ -24,7 +24,7 @@ export const Skills = () => {
             text="SKILLS"
             bottom="0"
             right="10%"
-            color="rgba(255, 255, 255, 0.26)"
+            color="rgba(255, 255, 255, 0.1)"
           />
           <section>
             <div className="skills-grid">{SkillCard}</div>
