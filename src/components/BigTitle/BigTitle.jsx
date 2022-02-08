@@ -9,6 +9,8 @@ export const BigTitle = (prop) => {
     left: prop.left,
     fontSize: "calc(5rem + 5vw)",
     color: prop.color,
+    fontFamily: "Karla",
+    fontWeight: "800",
   };
   return (
     <>
