@@ -2,7 +2,7 @@ import React from "react";
 
 export const BigTitle = (prop) => {
   const style = {
-    position: "absolute",
+    position: "fixed",
     top: prop.top,
     right: prop.right,
     bottom: prop.bottom,

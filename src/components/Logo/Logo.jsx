@@ -4,9 +4,11 @@ import "./style.css";
 export const Logo = (prop) => {
   return (
     <>
-      <div className="logo" style={{ color: prop.color }}>
-        AB
-      </div>
+      <h1 className="logo">
+        <a className="logo-link" style={{ color: prop.color }} href="/">
+          AB
+        </a>
+      </h1>
     </>
   );
 };
