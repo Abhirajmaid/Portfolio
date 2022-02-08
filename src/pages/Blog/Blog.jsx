@@ -37,7 +37,7 @@ export const Blog = () => {
           style={{
             minHeight: "100vh",
             height: "100%",
-            opacity: "0.95",
+            opacity: "0.90",
             paddingBottom: "130px",
           }}
         >

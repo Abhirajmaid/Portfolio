@@ -6,6 +6,7 @@ import { Skills } from "./pages/Skills/Skills";
 import { About } from "./pages/About/About";
 import GlobalStyle from "./Global/globalstyles";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import { Work } from "./pages/Work/Work";
 export const App = () => {
   return (
     <>
@@ -18,6 +19,7 @@ export const App = () => {
           <Route exact path="/Blog" element={<Blog />} />
           <Route exact path="/Skills" element={<Skills />} />
           <Route exact path="/About" element={<About />} />
+          <Route exact path="/Work" element={<Work />} />
         </Routes>
       </Router>
     </>
