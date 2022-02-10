@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-// import { NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export const BlogCard = (prop) => {
   const { name, tags, date, imgSrc, link } = prop.blog;
@@ -13,7 +13,9 @@ export const BlogCard = (prop) => {
         <img src={`${imgSrc}`} alt="blogImage" className="blog-img" />
         <h3 className="blog-title">{name}</h3>
         <hr className="divider" />
-        <div className="tags">{Tags}</div>
+        <div className="tags" style={{ color: "aqua" }}>
+          {Tags}
+        </div>
         <span className="blog-date">{date}</span>
       </a>
     </>

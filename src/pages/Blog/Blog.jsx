@@ -5,6 +5,7 @@ import { Blogs } from "../../data/BlogData";
 import { BlogCard } from "../../components/BlogCard/BlogCard";
 import ScrollAnchore from "../../components/ScrollAnchor/ScrollAnchor";
 import { BigTitle } from "../../components/BigTitle/BigTitle";
+import { AnimatePresence, motion } from "framer-motion";
 import "./style.css";
 
 export const Blog = () => {
@@ -37,7 +38,7 @@ export const Blog = () => {
           style={{
             minHeight: "100vh",
             height: "100%",
-            opacity: "0.90",
+            opacity: "0.92",
             paddingBottom: "130px",
           }}
         >
@@ -45,9 +46,6 @@ export const Blog = () => {
             <Logo color="white" />
             <SocialIcons color="white" />
             <ScrollAnchore number={numbers} />
-            <section className="blog-sec">
-              <div className="grid">{Blog}</div>
-            </section>
             <BigTitle
               text="BLOG"
               top="4rem"
@@ -55,6 +53,9 @@ export const Blog = () => {
               color="rgba(255, 255, 255, 0.1)"
             />
           </div>
+          <section className="blog-sec">
+            <div className="grid">{Blog}</div>
+          </section>
         </div>
       </div>
     </>

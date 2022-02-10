@@ -8,6 +8,7 @@
   background-color: transparent;
   backdrop-filter: blur(4px);
   cursor: pointer;
+  z-index: 99;
 }
 .card:hover {
   background-color: black;

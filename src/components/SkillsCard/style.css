@@ -24,27 +24,18 @@
   margin: 0 auto 15px;
   font-weight: 700;
 }
-/* .card-title:hover {
-  color: black;
-} */
 .skills-dis {
   color: white;
   margin-bottom: 18px;
   font-size: 18px;
   font-weight: 400;
 }
-/* .skills-dis:hover {
-  color: black;
-} */
 .skills-title {
   color: white;
   font-weight: 700;
   margin-bottom: 8px;
   font-size: 22px;
 }
-/* .skills-title:hover {
-  color: black;
-} */
 .skills {
   color: aqua;
   margin-bottom: 18px;
@@ -58,9 +49,6 @@
   font-size: 22px;
   font-weight: 700;
 }
-/* .tools-title:hover {
-  color: black;
-} */
 .tools {
   color: aqua;
   font-size: 18px;

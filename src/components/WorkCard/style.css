@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   width: 16rem;
-  height: 40vh;
+  min-height: 44vh;
   padding: 1.5rem 2rem;
   margin-right: 8rem;
   background-color: #edeef5;

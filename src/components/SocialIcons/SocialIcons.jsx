@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import "./style.css";
 import { Icon } from "@iconify/react";
+import { motion } from "framer-motion";
 
 /**
  * @Add_Functionality
@@ -25,6 +26,7 @@ import { Icon } from "@iconify/react";
  */
 
 export const SocialIcons = (prop) => {
+  // const [isHovered, setHovered] = useState(false);
   const style = {
     height: "25px",
     width: "25px",
@@ -34,23 +36,25 @@ export const SocialIcons = (prop) => {
   return (
     <>
       <div className="icons">
-        <a href="/home" target="_blank">
+        <motion.a whileHover={{ scale: 1.1 }} href="/home" target="_blank">
           <Icon icon="bi:twitter" style={style} />
-        </a>
-        <a
+        </motion.a>
+        <motion.a
+          whileHover={{ scale: 1.1 }}
           href="https://github.com/Abhirajmaid"
           target="_blank"
           rel="noreferrer"
         >
           <Icon icon="bi:github" style={style} />
-        </a>
-        <a
+        </motion.a>
+        <motion.a
+          whileHover={{ scale: 1.1 }}
           href="https://www.linkedin.com/in/abhiraj-maid-42a381217/"
           target="_blank"
           rel="noreferrer"
         >
           <Icon icon="bi:linkedin" style={style} />
-        </a>
+        </motion.a>
         <span className="line" style={{ backgroundColor: prop.color }}></span>
       </div>
     </>

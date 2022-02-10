@@ -4,7 +4,9 @@ import "./style.css";
 export const ContactLink = () => {
   return (
     <>
-      <div className="contact">Contact Me 👋</div>
+      <a href="mailto: abhiraj@eternalmac.com" className="contact">
+        Contact Me 👋
+      </a>
     </>
   );
 };

@@ -5,6 +5,7 @@ import { Nav } from "../../components/Nav/Nav";
 import { Intro } from "../../components/Intro/Intro";
 import { ContactLink } from "../../components/ContactLink/ContactLink";
 import "./style.css";
+import { motion } from "framer-motion";
 
 export const Main = () => {
   return (
