@@ -1,12 +1,13 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./style.css";
 
 export const ActionBtn = (prop) => {
   return (
     <>
-      <a href={prop.link} target="_blank" rel="noreferrer">
+      <NavLink to={`${prop.link}`}>
         <button className="btn">{prop.text}</button>
-      </a>
+      </NavLink>
     </>
   );
 };

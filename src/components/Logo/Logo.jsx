@@ -1,13 +1,14 @@
 import React from "react";
 import "./style.css";
+import { NavLink } from "react-router-dom";
 
 export const Logo = (prop) => {
   return (
     <>
       <h1 className="logo">
-        <a className="logo-link" style={{ color: prop.color }} href="/">
+        <NavLink className="logo-link" style={{ color: prop.color }} to="/">
           AB
-        </a>
+        </NavLink>
       </h1>
     </>
   );
