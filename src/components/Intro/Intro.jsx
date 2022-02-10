@@ -1,10 +1,11 @@
 import React from "react";
-import "./style.css";
 import { IntroInfo } from "../../data/Info";
 import { ActionBtn } from "../ActionBtn/ActionBtn";
+import "./style.css";
 
 export const Intro = () => {
-  const ImgURL = "https://bit.ly/3op5UwH";
+  const ImgURL =
+    "https://github.com/Abhirajmaid/Portfolio/blob/master/public/assets/Images/Hand.png?raw=true";
   return (
     <>
       <div className="box">

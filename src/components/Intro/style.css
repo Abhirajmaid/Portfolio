@@ -30,10 +30,19 @@
 }
 .pic {
   position: absolute;
-  bottom: 10px;
-  left: 50%;
-  transform: translate(-50%, 0%);
-  width: 100%;
-  height: 130%;
-  margin-bottom: -5px;
+  left: 25%;
+  width: 50%;
+  height: 80%;
+  animation: handMove 4s ease infinite;
+}
+@keyframes handMove {
+  0% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
 }
