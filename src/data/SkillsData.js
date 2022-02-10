@@ -1,10 +1,10 @@
 export const SkillsData = [
   {
     id: 1,
-    title: "Frontend",
+    title: "Web-Dev",
     icon: "bi:code-slash",
     discription:
-      "I value business or brand for which i'm creating, thus i enjoy bringing new ideas to life.",
+      "I love creating designs and enjoy bringing these desings and ideas to life.",
     skills: [
       "HTML5-CSS3",
       "JavaScript",
@@ -17,25 +17,15 @@ export const SkillsData = [
       "styled-components",
       "Firebase",
     ],
-    tools: ["VScode", "GitHub", "Codepen"],
+    tools: ["VScode", "GitHub", "Codepen", "Dev.to"],
   },
   {
     id: 2,
-    title: "Backend",
-    icon: "bx:bxs-server",
-    discription: "Lorem ipsum dolor sit amet, consectetur adi ",
-    skills: [
-      "HTML5-CSS3",
-      "JavaScript",
-      "GIT",
-      "React",
-      "react-router",
-      "API",
-      "npm",
-      "SASS",
-      "styled-components",
-      "Firebase",
-    ],
-    tools: ["VScode", "GitHub", "Codepen"],
+    title: "Programming",
+    icon: "dashicons:media-code",
+    discription:
+      "I do competetive programming and passionate about it. A guy who inspired me through his videos to do Competetive Programming is Errichto",
+    skills: ["C", "C++", "Vim"],
+    tools: ["VIM", "GDB-online compiler", "CodeChef", "GeeksforGeeks"],
   },
 ];
