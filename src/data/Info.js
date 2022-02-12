@@ -46,7 +46,7 @@ export const AboutInfo = () => {
           style={style}
           rel="noreferrer"
         >
-          projects
+          3D projects{" "}
         </a>
         too.
         <br />
