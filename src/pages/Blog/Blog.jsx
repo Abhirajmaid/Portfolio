@@ -61,3 +61,18 @@ export const Blog = () => {
     </>
   );
 };
+
+// export const ProductSection = (prop) => {
+//   // const ProductsData = `${prop.category}Data`; //# another way to do the same, here we didn't need to use filter function
+
+//   // eslint-disable-next-line no-undef
+//   const Product = ProductsData.filter(
+//     (product) => product.category === prop.category
+//   ).map((item) => {
+//     // eslint-disable-next-line react/jsx-no-undef
+//     return <ProductCard key={item.id} item={item} />;
+//   });
+//   return <div>{Product}</div>;
+// }; //# separete components for product section
+
+// <ProductSection category="books" />; //#inside the page
