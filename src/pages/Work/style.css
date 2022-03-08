@@ -1,9 +1,0 @@
-.work-grid {
-  position: fixed;
-  display: flex;
-  top: 30%;
-  left: calc(10rem + 15vw);
-  height: 40vh;
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-}
