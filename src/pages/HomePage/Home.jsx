@@ -37,7 +37,7 @@ const Home = () => {
             </div>
           </section>
           <section className="work">
-            <SectionTitle />
+            <SectionTitle title="Selected Works" />
           </section>
         </div>
       </div>
