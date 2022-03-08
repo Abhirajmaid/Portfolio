@@ -1,0 +1,10 @@
+.text-area {
+  display: flex;
+  flex-direction: column;
+}
+.text-area h1 {
+  font-family: "panchang", sans-serif;
+  font-size: 100px;
+  line-height: 7.5rem;
+  font-weight: 700;
+}

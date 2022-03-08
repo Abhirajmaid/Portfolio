@@ -1,0 +1,71 @@
+.main-menue {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  position: fixed;
+}
+.main-menue ul {
+  display: flex;
+  gap: 30px;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "panchang", sans-serif;
+  font-weight: 700;
+}
+.main-menue a {
+  all: unset;
+  cursor: pointer;
+  color: white;
+}
+.main-menue ul li a {
+  position: relative;
+}
+.main-menue ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: ".";
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+.main-menue ul li a {
+  transition: all 2s;
+}
+
+.main-menue ul li a:after {
+  text-align: left;
+  content: ".";
+  margin: 0;
+  opacity: 0;
+}
+.main-menue ul li a:hover {
+  color: rgb(14, 14, 14);
+  z-index: 1;
+}
+.main-menue ul li a:hover:after {
+  z-index: -10;
+  animation: fill 1s forwards;
+  -webkit-animation: fill 1s forwards;
+  -moz-animation: fill 1s forwards;
+  opacity: 1;
+}
+
+@keyframes fill {
+  0% {
+    width: 0%;
+    height: 1px;
+  }
+  50% {
+    width: 100%;
+    height: 1px;
+  }
+  100% {
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+  }
+}

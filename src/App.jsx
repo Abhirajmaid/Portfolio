@@ -1,11 +1,12 @@
 import React from "react";
-import GlobalStyle from "./Global/globalstyles";
+import NormalizeStyle from "./Global/normalizeStyle";
+import { Home } from "./pages";
 
 export const App = () => {
   return (
     <>
-      <GlobalStyle />
-      <h1>Hello</h1>
+      <NormalizeStyle />
+      <Home />
     </>
   );
 };

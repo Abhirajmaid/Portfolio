@@ -1,0 +1,13 @@
+.cta-btn {
+  font-weight: 700;
+  font-family: "Work Sans", sans-serif;
+  color: #181818;
+  transition: all 0.5s ease-in-out;
+}
+.cta-btn:hover {
+  -webkit-text-stroke: 1px #000000;
+  color: white;
+  font-weight: 700;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+}

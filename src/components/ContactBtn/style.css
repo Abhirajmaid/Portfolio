@@ -1,0 +1,31 @@
+.contact-btn {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  /* top: -90px; */
+  right: 220px;
+  border-right: 1px solid rgb(131, 131, 131);
+  border-bottom: 1px solid rgb(131, 131, 131);
+  border-left: 1px solid rgb(131, 131, 131);
+  border-top: 1px solid transparent;
+  border-radius: 50%;
+  transform: rotate(45deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-btn h3 {
+  transform: rotate(-45deg);
+}
+
+.contact-btn a {
+  text-decoration: none;
+  color: rgba(255, 254, 210, 0.575);
+  font-size: 25px;
+  font-weight: lighter;
+  letter-spacing: 4px;
+}
+.contact-btn a:hover {
+  color: white;
+}
