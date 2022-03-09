@@ -2,6 +2,8 @@ import React from "react";
 
 import "./style.css";
 
+import { WorkData } from "../../data/WorkData";
+
 import {
   ContactBtn,
   PageHeader,
@@ -10,9 +12,15 @@ import {
   Intro,
   Nav,
   SectionTitle,
+  WorkCard,
+  AboutText,
 } from "../../components";
 
 const Home = () => {
+  const WCard = WorkData.map((work) => {
+    return <WorkCard key={work.id} work={work} />;
+  });
+
   return (
     <>
       <div className="page">
@@ -37,7 +45,12 @@ const Home = () => {
             </div>
           </section>
           <section className="work">
-            <SectionTitle title="Selected Works" />
+            <SectionTitle title="Selected Works :" />
+            <div className="projects-wrap">{WCard}</div>
+          </section>
+          <section className="about">
+            <SectionTitle title="I, Me and Myself :" />
+            <AboutText />
           </section>
         </div>
       </div>

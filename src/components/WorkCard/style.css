@@ -1,0 +1,89 @@
+.card-wrap {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.reversed {
+  flex-direction: row-reverse;
+}
+.hide {
+  display: none;
+}
+.work-des {
+  color: rgb(214, 214, 214);
+  font-size: 24px;
+  font-weight: 400;
+  width: 50%;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+.work-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 450px;
+  height: 190px;
+  padding: 1.5rem 2rem;
+  background-color: #e0e0e0;
+  cursor: pointer;
+  border-radius: 0 50px 0 50px;
+}
+.work-img img {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  transform: translate(10px, -50%);
+  object-fit: fill;
+  filter: grayscale(0);
+  border-radius: 25px;
+  -webkit-animation: action 1s infinite alternate;
+  animation: projectImg 0.8s infinite alternate ease;
+}
+.work-title {
+  color: black;
+  font-size: 22px;
+  font-weight: 800;
+  margin-bottom: 15px;
+  font-family: "panchang";
+}
+.tags {
+  margin-top: 5px;
+  color: #3425ff;
+  margin-bottom: 18px;
+  font-size: calc(0.6em + 0.3vw);
+  font-weight: 400;
+  border-top: 2px solid black;
+  padding-top: 12px;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.visit-btn {
+  background-color: black;
+  padding: 9px 30px 9px 60px;
+  width: 20%;
+  border-radius: 0 0 0 50px;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  transition: all 0.5s ease;
+  letter-spacing: 2px;
+}
+.visit-btn:hover {
+  font-weight: 800;
+  letter-spacing: 4px;
+  -webkit-text-stroke: 1px #ffffff;
+  color: black;
+}
+
+@keyframes projectImg {
+  0% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(-55%);
+  }
+}

@@ -16,13 +16,14 @@ export const IntroInfo = () => {
 export const AboutInfo = () => {
   const style = {
     textDecoration: "none",
-    color: "aqua",
+    fontWeight: "800",
+    color: "white",
   };
   return (
     <>
       <p>
         I'm Programming enthusiast. Who loves Web-Development and I'm
-        Web-Developer myself.
+        Web-Developer.
         <br />
         <br />
         Work with JavaScript, React, and lot other technologies. checkout my{" "}
@@ -40,16 +41,15 @@ export const AboutInfo = () => {
           Eternalmac.com{" "}
         </a>
         <br />
-        <br />
-        Currently learning Blockchain, web3 technologies😍. <br /> I also do 3d
-        designing and animations with Blender for fun. I have few good{" "}
+        <br />I also do 3d designing and animations with Blender for fun. And I
+        have few good{" "}
         <a
           href="https://www.artstation.com/codersground404"
           target="_blank"
           style={style}
           rel="noreferrer"
         >
-          3D projects{" "}
+          projects{" "}
         </a>
         too.
         <br />
@@ -58,7 +58,7 @@ export const AboutInfo = () => {
         <a href="/contact" style={style}>
           Contact ME{" "}
         </a>
-        We can listen to some POP music 🎧🤗
+        We can listen to good POP music together 🎧🤗
       </p>
     </>
   );
