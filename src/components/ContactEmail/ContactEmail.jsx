@@ -12,7 +12,9 @@ const ContactEmail = () => {
         </div>
         <div className="mail-wrap">
           <button className="contact-mail">
-            <a href="/">abhirajmaid050@gmail.com</a>
+            <a href="mailto:abhirajmaid050@gmail.com">
+              abhirajmaid050@gmail.com
+            </a>
           </button>
         </div>
       </div>

@@ -33,13 +33,14 @@
   outline: 0;
   font-family: "panchang", sans-serif;
   position: relative;
-  cursor: pointer;
 }
 .contact-mail a {
+  cursor: pointer;
   font-size: 25px;
   font-weight: 700;
   text-decoration: none;
   color: #dfd3c3;
+  z-index: 99;
 }
 .contact-mail::after {
   content: "";
