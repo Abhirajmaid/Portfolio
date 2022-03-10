@@ -14,6 +14,9 @@ import {
   SectionTitle,
   WorkCard,
   AboutText,
+  SocialConnect,
+  ContactEmail,
+  FooterNav,
 } from "../../components";
 
 const Home = () => {
@@ -49,8 +52,25 @@ const Home = () => {
             <div className="projects-wrap">{WCard}</div>
           </section>
           <section className="about">
-            <SectionTitle title="I, Me and Myself :" />
-            <AboutText />
+            <SectionTitle title="About Me and Myself :" />
+            <div>
+              <AboutText />
+              <SocialConnect dim="45px" />
+            </div>
+          </section>
+          <section className="contact">
+            <div>
+              <article style={{ width: "50%" }}>
+                <SectionTitle title="Let's Have a Talk !" fontSize="80px" />
+              </article>
+            </div>
+            <ContactEmail />
+            <footer>
+              <SocialConnect dim="25px" size="15px" />
+              <div className="footer-content">
+                <FooterNav />
+              </div>
+            </footer>
           </section>
         </div>
       </div>

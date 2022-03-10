@@ -15,9 +15,9 @@ export const IntroInfo = () => {
 };
 export const AboutInfo = () => {
   const style = {
-    textDecoration: "none",
+    textDecoration: "underline",
     fontWeight: "800",
-    color: "white",
+    color: "rgb(255, 245, 232)",
   };
   return (
     <>
@@ -26,12 +26,12 @@ export const AboutInfo = () => {
         Web-Developer.
         <br />
         <br />
-        Work with JavaScript, React, and lot other technologies. checkout my{" "}
+        Work with JavaScript, React, and lot other technologies.
+        {/* checkout my{" "}
         <a href="/Skills" target="_blank" style={style}>
           Skills Page
-        </a>
-        <br />
-        <br /> I also Run NEWS media company{" "}
+        </a> */}
+        <br />I also Run NEWS media company{" "}
         <a
           href="https://www.eternalmac.com"
           target="_blank"
@@ -41,7 +41,7 @@ export const AboutInfo = () => {
           Eternalmac.com{" "}
         </a>
         <br />
-        <br />I also do 3d designing and animations with Blender for fun. And I
+        <br />I do 3d designing and animations too with Blender for fun. And I
         have few good{" "}
         <a
           href="https://www.artstation.com/codersground404"

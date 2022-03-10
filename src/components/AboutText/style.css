@@ -2,7 +2,8 @@
   color: rgb(190, 190, 190);
   line-height: 38px;
   letter-spacing: 1.5px;
-  font-size: 30px;
+  font-size: 32px;
+  font-weight: 600;
   padding-right: 40px;
 }
 .about-text p {

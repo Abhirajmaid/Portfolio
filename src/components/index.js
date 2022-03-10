@@ -8,4 +8,7 @@ export { default as SectionTitle } from "./SectionTitle/SectionTitle";
 export { default as WorkCard } from "./WorkCard/WorkCard";
 export { default as SkillsBox } from "./SkillsBox/SkillsBox";
 export { default as AboutText } from "./AboutText/AboutText";
+export { default as SocialConnect } from "./SocialConnect/SocialConnect";
+export { default as ContactEmail } from "./ContactEmail/ContactEmail";
+export { default as FooterNav } from "./FooterNav/FooterNav";
 // export { default as Cursor } from "./Cursor/Cursor";

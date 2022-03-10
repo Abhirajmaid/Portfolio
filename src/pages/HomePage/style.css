@@ -84,3 +84,21 @@
   flex-direction: column;
   gap: 170px;
 }
+.contact {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-content {
+  color: white;
+  display: flex;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
