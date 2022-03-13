@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import NormalizeStyle from "./Global/normalizeStyle";
 import { Home, Loader } from "./pages";
+import "./Global/ScrollBar.css";
 
 export const App = () => {
   const [loading, setLoding] = useState(false);
