@@ -1,20 +1,52 @@
 import React from "react";
 
+import { motion } from "framer-motion";
 import "./style.css";
+
+const ParentVariant = {
+  initial: {
+    x: 0,
+  },
+  animate: {
+    y: 0,
+    transition: {
+      staggerChildren: 0.1,
+    },
+  },
+};
+
+const TextVariant = {
+  initial: {
+    y: 400,
+  },
+  animate: {
+    y: 0,
+    transition: {
+      duration: 1.2,
+      type: "tween",
+      ease: "easeInOut",
+    },
+  },
+};
 
 const PageHeader = () => {
   return (
     <>
-      <div className="text-area">
+      <motion.div
+        className="text-area"
+        variants={ParentVariant}
+        initial="initial"
+        animate="animate"
+      >
         <span>
-          <h1>
+          <motion.h1 variants={TextVariant}>
             Hello<em>.</em>
-          </h1>
+          </motion.h1>
         </span>
         <span>
-          <h1>I am Abhiraj</h1>
+          <motion.h1 variants={TextVariant}>I am Abhiraj</motion.h1>
         </span>
-      </div>
+      </motion.div>
     </>
   );
 };

@@ -1,8 +1,11 @@
+.nav {
+  position: fixed;
+  right: 50px;
+}
 .main-menue {
   display: flex;
   justify-content: flex-end;
   width: 100%;
-  position: fixed;
 }
 .main-menue ul {
   display: flex;

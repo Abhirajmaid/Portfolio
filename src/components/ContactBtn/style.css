@@ -8,7 +8,7 @@
   border-left: 1px solid rgb(131, 131, 131);
   border-top: 1px solid transparent;
   border-radius: 50%;
-  transform: rotate(45deg);
+  /* transform: rotate(45deg); */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,6 +16,7 @@
 
 .contact-btn h3 {
   transform: rotate(-45deg);
+  overflow: hidden;
 }
 
 .contact-btn a {

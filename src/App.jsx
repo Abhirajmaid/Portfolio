@@ -1,20 +1,21 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import NormalizeStyle from "./Global/normalizeStyle";
-import { Home } from "./pages";
+import { Home, Loader } from "./pages";
 
 export const App = () => {
+  const [loading, setLoding] = useState(false);
+
+  useEffect(() => {
+    setLoding(true);
+    setTimeout(() => {
+      setLoding(false);
+    }, 2500);
+  }, []);
   return (
     <>
       <NormalizeStyle />
-      <Home />
+      {loading ? <Loader /> : <Home />}
+      {/* <Loader /> */}
     </>
   );
 };
-
-// const [loading, setLoding] = useState(false);
-// useEffect(() => {
-//   setLoding(true);
-//   setTimeout(() => {
-//     setLoding(false);
-//   }, 2000);
-// }, []);

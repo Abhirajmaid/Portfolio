@@ -6,6 +6,7 @@ export const WorkData = [
       "Basic clone. With the functionalities: Functional Cart, Firebase Auth., Sign-up and Login,",
     tags: ["react", "firebase", "context-api", "react-router"],
 
+    demo: "/",
     github: "https://github.com/Abhirajmaid/Amazon-clone",
     img: "https://images.unsplash.com/photo-1646713369588-add27cc47d77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80",
     side: true,
@@ -23,6 +24,7 @@ export const WorkData = [
       "firebase hosting",
     ],
 
+    demo: "https://abhirajmaid.ml",
     github: "https://github.com/Abhirajmaid/Portfolio",
     img: "https://images.unsplash.com/photo-1646713369588-add27cc47d77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80",
     side: false,

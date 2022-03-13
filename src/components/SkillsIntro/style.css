@@ -3,8 +3,8 @@
   display: flex;
   align-items: center;
   left: 580px;
+  overflow: hidden;
 }
-
 .marquee-w {
   position: relative;
   display: block;
@@ -32,21 +32,13 @@
 }
 
 .arrow {
-  width: 80px;
-  height: 100px;
+  width: 110px;
+  height: 130px;
 }
-
-/* .skill-box p {
-  font-size: 17px;
-  font-weight: 600;
-  font-family: "panchang";
-  position: relative;
-  left: 770px;
-} */
 
 @keyframes marquee {
   0% {
-    transform: translate(0, 0);
+    transform: translate(5%, 0);
   }
   100% {
     transform: translate(-100%, 0);

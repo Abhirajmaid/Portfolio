@@ -11,7 +11,6 @@ const SkillsBox = () => {
       "Next.js",
       "Framer Motion",
       "Styled-Components",
-      "Tailwind CSS",
       "Strapi CMS",
       "Firebase",
       "GIT and GitHub",
@@ -47,9 +46,6 @@ const SkillsBox = () => {
             })}
           </ul>
         </div>
-        {/* <div className="skills-colomn-wrap">
-          <p></p>
-        </div> */}
       </div>
     </>
   );

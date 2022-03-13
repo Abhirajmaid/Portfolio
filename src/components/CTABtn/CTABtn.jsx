@@ -1,6 +1,8 @@
 import React from "react";
 import "./style.css";
 
+import { motion } from "framer-motion";
+
 const CTABtn = (props) => {
   const style = {
     width: `${props.width}`,
@@ -13,10 +15,14 @@ const CTABtn = (props) => {
   };
   return (
     <>
-      <a href={props.link}>
-        <button style={style} className="cta-btn">
+      <a href={props.link} target="_blank" rel="noreferrer">
+        <motion.button
+          style={style}
+          className="cta-btn"
+          whileTap={{ scale: 0.9 }}
+        >
           {props.text}
-        </button>
+        </motion.button>
       </a>
     </>
   );

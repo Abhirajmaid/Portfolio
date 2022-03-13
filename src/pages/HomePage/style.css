@@ -15,7 +15,7 @@
 .head {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 0px;
   margin-top: -10px;
 }
 
@@ -79,7 +79,7 @@
   gap: 150px;
 }
 .about {
-  margin-top: 150px;
+  margin-top: 80px;
   display: flex;
   flex-direction: column;
   gap: 170px;

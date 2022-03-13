@@ -1,11 +1,22 @@
 import React from "react";
 // import NavLink from "react-router-dom";
 import "./style.css";
+import { motion } from "framer-motion";
 
 const Nav = () => {
   return (
     <>
-      <nav>
+      <motion.nav
+        className="nav"
+        initial={{ y: -400 }}
+        animate={{ y: 0 }}
+        transition={{
+          duration: 1.2,
+          type: "spring",
+          ease: "easeInOut",
+          delay: 0.8,
+        }}
+      >
         <div className="main-menue">
           <ul>
             <li>
@@ -17,12 +28,9 @@ const Nav = () => {
             <li>
               <a href="/About">About</a>
             </li>
-            <li>
-              <a href="/Skills">Skills</a>
-            </li>
           </ul>
         </div>
-      </nav>
+      </motion.nav>
     </>
   );
 };
