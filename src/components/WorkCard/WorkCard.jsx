@@ -73,6 +73,7 @@ const WorkCard = (prop) => {
               >
                 Visit
               </a>
+
               <a href={github} target="_blank" rel="noreferrer">
                 <Icon icon="bi:github" style={style} />
               </a>

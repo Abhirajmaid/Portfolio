@@ -6,10 +6,14 @@ const FooterNav = () => {
       <div className="footer-menue">
         <ul>
           <li>
-            <a href="https://abhirajmaid.ml">v1</a>
+            <a href="https://abhirajmaid.ml" target="_blank" rel="noreferrer">
+              v1
+            </a>
           </li>
           <li>
-            <a href="https://eternalmac.com">Eternalmac</a>
+            <a href="https://eternalmac.com" target="_blank" rel="noreferrer">
+              Eternalmac
+            </a>
           </li>
         </ul>
       </div>

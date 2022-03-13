@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Icon } from "@iconify/react";
 import "./style.css";
 
-const Socials = ({ text, dimenssion, fontSize }) => {
+const Socials = ({ text, dimenssion, fontSize, to }) => {
   const [hover, setHover] = useState(false);
   return (
     <>
@@ -19,7 +19,7 @@ const Socials = ({ text, dimenssion, fontSize }) => {
             transform: hover ? "rotate(-10deg)" : "",
           }}
         />
-        <a href="/" className="socials-name">
+        <a href={to} target="_blank" className="socials-name">
           <p style={{ fontSize: fontSize }}>{text}</p>
         </a>
       </li>
@@ -27,13 +27,28 @@ const Socials = ({ text, dimenssion, fontSize }) => {
   );
 };
 
-const SocialConnect = (prop) => {
+const SocialConnect = ({ dim, size }) => {
   return (
     <>
       <ul className="socials-wrap">
-        <Socials text="instagram" dimenssion={prop.dim} fontSize={prop.size} />
-        <Socials text="linkedin" dimenssion={prop.dim} fontSize={prop.size} />
-        <Socials text="github" dimenssion={prop.dim} fontSize={prop.size} />
+        <Socials
+          text="instagram"
+          to="https://www.instagram.com/abhirajmaid/"
+          dimenssion={dim}
+          fontSize={size}
+        />
+        <Socials
+          text="linkedin"
+          to="https://www.linkedin.com/in/abhiraj-maid-42a381217/"
+          dimenssion={dim}
+          fontSize={size}
+        />
+        <Socials
+          text="github"
+          to="https://github.com/Abhirajmaid"
+          dimenssion={dim}
+          fontSize={size}
+        />
       </ul>
     </>
   );

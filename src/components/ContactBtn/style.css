@@ -21,8 +21,8 @@
 .contact-btn a {
   text-decoration: none;
   color: rgba(255, 254, 210, 0.575);
-  font-size: 25px;
-  font-weight: lighter;
+  font-size: 27px;
+  font-weight: 100;
   letter-spacing: 4px;
 }
 .contact-btn a:hover {

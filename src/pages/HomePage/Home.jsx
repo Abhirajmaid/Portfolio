@@ -17,6 +17,7 @@ import {
   SocialConnect,
   ContactEmail,
   FooterNav,
+  SkillsBox,
 } from "../../components";
 
 const Home = () => {
@@ -51,6 +52,12 @@ const Home = () => {
             <SectionTitle title="Selected Works :" />
             <div className="projects-wrap">{WCard}</div>
           </section>
+          <section className="skills">
+            <article>
+              <SectionTitle title="My_ Skills" />
+            </article>
+            <SkillsBox />
+          </section>
           <section className="about">
             <SectionTitle title="About Me and Myself :" />
             <div>
@@ -59,11 +66,9 @@ const Home = () => {
             </div>
           </section>
           <section className="contact">
-            <div>
-              <article style={{ width: "50%" }}>
-                <SectionTitle title="Let's Have a Talk !" fontSize="80px" />
-              </article>
-            </div>
+            <article style={{ width: "50%" }}>
+              <SectionTitle title="Let's Have a Talk !" fontSize="80px" />
+            </article>
             <ContactEmail />
             <footer>
               <SocialConnect dim="25px" size="15px" />
