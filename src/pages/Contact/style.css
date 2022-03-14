@@ -1,0 +1,128 @@
+.big-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #0a0a0a;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.connect-container {
+  width: 40vw;
+  height: 70vh;
+  background-color: white;
+  border-radius: 7px;
+  padding: 20px;
+}
+.connect-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-height: 70vh;
+}
+.input,
+.textarea,
+.connect-btn {
+  height: 40px;
+  padding-top: 6px;
+}
+.connect-btn {
+  padding: 10px;
+}
+.input {
+  color: black;
+}
+.input,
+.textarea {
+  background-color: white;
+  color: black;
+  width: 85%;
+  border: none;
+  border-bottom: 1px solid rgb(77, 77, 77);
+  outline: none;
+}
+.input:focus,
+.textarea:focus {
+  border: 1px solid rgb(51, 51, 51);
+}
+.textarea {
+  resize: none;
+  min-height: 100px;
+}
+::-webkit-input-placeholder {
+  /* Edge */
+  color: rgb(41, 41, 41);
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer */
+  color: rgb(41, 41, 41);
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+}
+
+.input,
+.textarea::placeholder {
+  color: #000000;
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+}
+.textarea::placeholder {
+  color: #757575;
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+}
+
+.connect-btn {
+  width: 35%;
+  margin: 20px 0;
+  background-color: #0a0a0a;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border: none;
+  transition: 0.3s ease-in-out;
+}
+.connect-btn:hover {
+  -webkit-text-stroke: 1px #ffffff;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+}
+.connect-form > h1 {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: black;
+  font-weight: lighter;
+  font-family: "panchang", sans-serif;
+}
+.connect-form > p {
+  width: 85%;
+  font-size: 14px;
+}
+.error {
+  color: red;
+  margin: 8px 0;
+  font-size: 13px;
+}
+@media screen and (max-width: 770px) {
+  .connect-container {
+    width: 60vw;
+  }
+  .connect-form > p {
+    font-size: 12px;
+  }
+  .connect-btn {
+    padding: 10px 0;
+    font-size: 13px;
+  }
+  .connect-form > h1 {
+    font-size: 20px;
+  }
+}

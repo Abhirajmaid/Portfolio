@@ -16,7 +16,7 @@ const SkillsBox = () => {
       "GIT and GitHub",
     ],
     CompetetiveSkills: ["C++/C", "Data Structures", "Algorithms"],
-    Extras: ["Linux", "Blender", "VScode", "Vim"],
+    Extras: ["Linux", "Blender", "VScode", "Vim", "Figma"],
   };
 
   return (

@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import NormalizeStyle from "./Global/normalizeStyle";
-import { Home, Loader } from "./pages";
+import { Contact, Home, Loader } from "./pages";
 import "./Global/ScrollBar.css";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 
 export const App = () => {
   const [loading, setLoding] = useState(false);
@@ -15,8 +16,13 @@ export const App = () => {
   return (
     <>
       <NormalizeStyle />
-      {loading ? <Loader /> : <Home />}
       {/* <Loader /> */}
+      <Router>
+        <Routes>
+          <Route exact path="/" element={loading ? <Loader /> : <Home />} />
+          <Route exact path="/contact" element={<Contact />} />
+        </Routes>
+      </Router>
     </>
   );
 };

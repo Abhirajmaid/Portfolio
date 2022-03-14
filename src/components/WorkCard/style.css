@@ -34,8 +34,8 @@
   position: absolute;
   width: 400px;
   height: 300px;
-  transform: translate(10px, -50%);
   object-fit: fill;
+  margin-left: 45px;
   filter: grayscale(0);
   border-radius: 25px;
   -webkit-animation: action 1s infinite alternate;

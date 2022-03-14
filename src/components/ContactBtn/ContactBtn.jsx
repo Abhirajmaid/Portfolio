@@ -29,7 +29,7 @@ const ContactBtn = () => {
       }}
     >
       <h3>
-        <a href="/contact">
+        <a href="/contact" target="_blank" rel="">
           <motion.div
             variants={TextVarient}
             initial="initial"
