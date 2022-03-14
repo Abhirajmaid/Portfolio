@@ -9,7 +9,7 @@ const CTABtn = (props) => {
     backgroundColor: "white",
     border: "none",
     padding: `${props.padding}`,
-    fontSize: "18px",
+    fontSize: "clamp(12px, 4px + 3vw, 18px)",
     cursor: "pointer",
     textDecoration: "none",
   };

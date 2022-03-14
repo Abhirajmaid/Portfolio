@@ -43,8 +43,8 @@ const Home = () => {
               <CTABtn
                 text="Resume"
                 link="https://drive.google.com/file/d/1_cAMkys07aDdbtoDAwwCRVtqqoJzfbbe/view?usp=sharing"
-                padding="10px"
-                width="200px"
+                padding="clamp(8px, 2px + 1vw, 10px)"
+                width="clamp(120px, 90px + 10vw ,220px)"
               />
             </div>
           </section>
@@ -59,10 +59,12 @@ const Home = () => {
             <SkillsBox />
           </section>
           <section className="about">
-            <SectionTitle title="About Me and Myself :" />
+            <article>
+              <SectionTitle title="About Me and _Myself :" />
+            </article>
             <div>
               <AboutText />
-              <SocialConnect dim="45px" />
+              <SocialConnect dim="clamp(20px, 18px + 5vw, 55px)" />
             </div>
           </section>
           <section className="contact">

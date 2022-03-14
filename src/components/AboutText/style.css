@@ -9,3 +9,13 @@
 .about-text p {
   width: 80%;
 }
+@media screen and (max-width: 560px) {
+  .about-text p {
+    width: 100%;
+  }
+  .about-text {
+    padding-right: 0;
+    font-size: 20px;
+    line-height: 22px;
+  }
+}

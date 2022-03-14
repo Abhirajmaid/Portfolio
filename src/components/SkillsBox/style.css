@@ -1,5 +1,6 @@
 .skills-wrap {
   display: flex;
+  gap: 30px;
 }
 .skills-colomn-wrap {
   width: 100%;
@@ -8,7 +9,7 @@
 .skills-colomn-wrap h3 {
   color: white;
   font-family: "panchang", sans-serif;
-  font-size: 20px;
+  font-size: clamp(12px, 8px + 3vw, 24px);
   margin-bottom: 20px;
 }
 .skills-colomn-wrap ul {
@@ -22,5 +23,13 @@
 .skills-colomn-wrap ul li {
   text-decoration: none;
   letter-spacing: -1px;
-  font-size: 20px;
+  font-size: clamp(8px, 3px + 3vw, 20px);
+}
+@media screen and (max-width: 670px) {
+  .skills-wrap {
+    flex-wrap: wrap;
+  }
+  .skills-colomn-wrap {
+    margin-top: 40px;
+  }
 }

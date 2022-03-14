@@ -6,6 +6,7 @@
 }
 .socials-wrap {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 50px;
   margin-top: 80px;
@@ -14,7 +15,7 @@
 .socials-name {
   position: relative;
   display: inline-block;
-  font-size: 30px;
+  font-size: clamp(18px, 10px + 2.5vw, 30px);
   text-decoration: none;
   color: rgb(255, 245, 232);
   font-family: "panchang", sans-serif;
@@ -36,4 +37,10 @@
 .socials-name:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+@media screen and (max-width: 540px) {
+  .socials-wrap {
+    gap: 20px;
+    margin-top: 35px;
+  }
 }

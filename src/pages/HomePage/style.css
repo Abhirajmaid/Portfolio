@@ -12,6 +12,7 @@
   justify-content: space-between;
   padding: 65px 65px 0 65px;
 }
+
 .head {
   display: flex;
   flex-direction: column;
@@ -30,34 +31,13 @@
   margin: 0 auto;
   gap: 200px;
 }
-/* @media (min-width: 1200px) {
-  .container {
-    max-width: 1140px;
-  }
-}
-@media (min-width: 992px) {
-  .container {
-    max-width: 960px;
-  }
-}
-@media (min-width: 768px) {
-  .container {
-    max-width: 720px;
-  }
-}
-@media (min-width: 576px) {
-  .container {
-    max-width: 540px;
-  }
-} */
-
 /*# ------------IntroSection------------ #*/
 .intro {
   display: flex;
   flex-direction: column;
   position: relative;
   width: 556px;
-  top: -70px;
+  top: -100px;
   left: 30px;
   gap: 20px;
 }
@@ -71,11 +51,12 @@
   flex-direction: column;
   gap: 150px;
   padding: 10px;
+  width: 100%;
 }
 .projects-wrap {
   display: flex;
   flex-direction: column;
-  padding: 0 50px;
+  /* padding: 0 50px; */
   gap: 150px;
 }
 .about {
@@ -83,6 +64,7 @@
   display: flex;
   flex-direction: column;
   gap: 170px;
+  width: 100%;
 }
 .skills {
   width: 100%;
@@ -92,7 +74,7 @@
   margin-bottom: 30px;
   margin-top: 100px;
 }
-.skills article {
+.skills .about article {
   width: 100%;
   display: flex;
   justify-content: flex-end;
@@ -115,4 +97,44 @@ footer {
   display: flex;
   margin-top: 80px;
   margin-bottom: 30px;
+}
+@media screen and (max-width: 825px) {
+  .head-wrap {
+    padding: 65px 10px 0 45px;
+  }
+  .head {
+    margin-top: 70px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .head-wrap {
+    padding: 65px 10px 0 25px;
+  }
+  .intro {
+    top: 100px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .about {
+    gap: 80px;
+  }
+}
+@media screen and (max-width: 675px) {
+  .container {
+    gap: 70px;
+  }
+  .intro {
+    width: 100%;
+    left: 0;
+    top: 50px;
+  }
+  .work {
+    gap: 80px;
+  }
+  .projects-wrap {
+    gap: 100px;
+  }
+  .work {
+    margin-top: 150px;
+  }
 }

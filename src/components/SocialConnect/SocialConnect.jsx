@@ -19,7 +19,7 @@ const Socials = ({ text, dimenssion, fontSize, to }) => {
             transform: hover ? "rotate(-10deg)" : "",
           }}
         />
-        <a href={to} target="_blank" className="socials-name">
+        <a href={to} target="_blank" className="socials-name" rel="noreferrer">
           <p style={{ fontSize: fontSize }}>{text}</p>
         </a>
       </li>

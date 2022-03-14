@@ -32,7 +32,8 @@ const WorkCard = (prop) => {
           </div>
         </div>
         <div
-          style={{ width: "50%", display: "flex", justifyContent: "center" }}
+          className="width-card"
+          style={{ display: "flex", justifyContent: "center" }}
         >
           <div
             className="work-card"
@@ -49,7 +50,7 @@ const WorkCard = (prop) => {
                 rel="noreferrer"
                 whileTap={{ scale: 0.8 }}
               >
-                Visit
+                <h3>Visit</h3>
               </motion.a>
 
               <a href={github} target="_blank" rel="noreferrer">

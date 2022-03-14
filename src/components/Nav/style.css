@@ -1,11 +1,20 @@
 .nav {
   position: fixed;
   right: 50px;
+  width: 100%;
 }
 .main-menue {
   display: flex;
   justify-content: flex-end;
   width: 100%;
+}
+@media screen and (max-width: 426px) {
+  .main-menue {
+    justify-content: center;
+  }
+  .nav {
+    right: 0;
+  }
 }
 .main-menue ul {
   display: flex;
@@ -14,6 +23,7 @@
   list-style-type: none;
   font-family: "panchang", sans-serif;
   font-weight: 700;
+  font-size: clamp(12px, 8px + 2vw, 18px);
 }
 .main-menue a {
   all: unset;

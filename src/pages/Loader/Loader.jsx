@@ -21,7 +21,7 @@ const Loader = () => {
         setCount(0);
         setTest(false);
       }
-    }, 22);
+    }, 20);
     return () => clearInterval(counter);
   });
   return (

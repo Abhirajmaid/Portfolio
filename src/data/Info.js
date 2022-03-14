@@ -21,8 +21,8 @@ export const AboutInfo = () => {
   return (
     <>
       <p>
-        I'm Programming enthusiast and fullstack Web developer. I love
-        Webdevelopement.
+        I'm Programming enthusiast and fullstack Web developer. And I love
+        Web-dev.
         <br />
         <br />I Work with JavaScript, React, Next.js and lot other technologies.
         I love using and working with new technologies. You can check my skills
