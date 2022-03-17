@@ -94,6 +94,9 @@
   gap: 40px;
   margin-bottom: 30px;
 }
+.contact article {
+  width: 50%;
+}
 footer {
   display: flex;
   justify-content: space-between;
@@ -103,6 +106,11 @@ footer {
   display: flex;
   margin-top: 80px;
   margin-bottom: 30px;
+}
+@media screen and (max-width: 955px) {
+  .contact article {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 825px) {
   .head-wrap {
@@ -142,5 +150,14 @@ footer {
   }
   .work {
     margin-top: 150px;
+  }
+  .skills article {
+    margin-bottom: -10px;
+  }
+  .about {
+    gap: 60px;
+  }
+  .about article {
+    margin-bottom: 0px;
   }
 }
