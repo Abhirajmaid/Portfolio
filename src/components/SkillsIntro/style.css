@@ -1,0 +1,75 @@
+.skill-intro {
+  position: relative;
+  display: flex;
+  align-items: center;
+  left: 45vw;
+  overflow: hidden;
+}
+.marquee-w {
+  position: relative;
+  display: block;
+  width: 350px;
+  height: 25px;
+  padding-right: 20px;
+  overflow: hidden;
+}
+.marquee {
+  position: absolute;
+  display: block;
+  overflow: hidden;
+}
+.marquee span {
+  display: inline-block;
+  padding-left: 100%;
+  font-family: "panchang";
+  min-width: 100%;
+  height: 100%;
+  font-size: 15px;
+  font-weight: 600;
+  animation: marquee 6s linear infinite;
+}
+.marquee2 span {
+  animation-delay: 3s;
+}
+
+.arrow {
+  width: 110px;
+  height: 130px;
+}
+
+@media screen and (max-width: 770px) {
+  .arrow {
+    width: 80px;
+    height: 100px;
+  }
+  .marquee span {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 676px) {
+  .skill-intro {
+    margin-left: -120px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .skill-intro {
+    margin-left: -10px;
+    margin-top: 15px;
+    left: 0;
+  }
+  .arrow {
+    width: 70px;
+    height: 70px;
+  }
+  .marquee span {
+    font-size: 11px;
+  }
+}
+@keyframes marquee {
+  0% {
+    transform: translate(5%, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}

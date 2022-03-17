@@ -1,0 +1,28 @@
+.text-area {
+  display: flex;
+  flex-direction: column;
+}
+.text-area span {
+  overflow: hidden;
+}
+.text-area h1 {
+  font-family: "panchang", sans-serif;
+  font-size: clamp(36px, 35px + 6vw, 110px);
+  line-height: 7.5rem;
+  font-weight: 700;
+}
+@media screen and (max-width: 825px) {
+  .text-area h1 {
+    line-height: 5.8rem;
+  }
+}
+@media screen and (max-width: 665px) {
+  .text-area h1 {
+    line-height: 5rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .text-area h1 {
+    line-height: 4.2rem;
+  }
+}
