@@ -28,6 +28,7 @@
 @media screen and (max-width: 670px) {
   .skills-wrap {
     flex-wrap: wrap;
+    gap: 0;
   }
   .skills-colomn-wrap {
     margin-top: 40px;

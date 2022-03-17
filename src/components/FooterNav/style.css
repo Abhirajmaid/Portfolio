@@ -36,3 +36,8 @@
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+@media screen and (max-width: 650px) {
+  .footer-menue ul {
+    flex-direction: column;
+  }
+}

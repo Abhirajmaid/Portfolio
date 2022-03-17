@@ -68,8 +68,11 @@ const Home = () => {
             </div>
           </section>
           <section className="contact">
-            <article style={{ width: "50%" }}>
-              <SectionTitle title="Let's Have a Talk !" fontSize="80px" />
+            <article>
+              <SectionTitle
+                title="Let's Have a Talk !"
+                fontSize="clamp(36px, 20px + 7vw, 80px)"
+              />
             </article>
             <ContactEmail />
             <footer>
