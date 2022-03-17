@@ -1,46 +1,28 @@
 import React, { useState, useEffect } from "react";
-import { HomePage } from "./pages/HomePage/HomePage";
-import { Main } from "./pages/Main/Main";
-import { Blog } from "./pages/Blog/Blog";
-import { Skills } from "./pages/Skills/Skills";
-import { About } from "./pages/About/About";
-import GlobalStyle from "./Global/globalstyles";
-import {
-  Route,
-  BrowserRouter as Router,
-  Routes,
-  useLocation,
-} from "react-router-dom";
-import { Work } from "./pages/Work/Work";
-import { AnimatePresence } from "framer-motion";
+import NormalizeStyle from "./Global/normalizeStyle";
+import { Contact, Home, Loader } from "./pages";
+import "./Global/ScrollBar.css";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 
 export const App = () => {
   const [loading, setLoding] = useState(false);
+
   useEffect(() => {
     setLoding(true);
     setTimeout(() => {
       setLoding(false);
-    }, 2000);
+    }, 2500);
   }, []);
-
   return (
     <>
-      <GlobalStyle />
-      {loading ? (
-        <HomePage />
-      ) : (
-        <Router>
-          <Routes>
-            <Route exact path="/" element={<Main />} />
-            <Route exact path="/Blog" element={<Blog />} />
-            <Route exact path="/Skills" element={<Skills />} />
-            <Route exact path="/About" element={<About />} />
-            <Route exact path="/Work" element={<Work />} />
-          </Routes>
-        </Router>
-      )}
+      <NormalizeStyle />
+      {/* <Loader /> */}
+      <Router>
+        <Routes>
+          <Route exact path="/" element={loading ? <Loader /> : <Home />} />
+          <Route exact path="/contact" element={<Contact />} />
+        </Routes>
+      </Router>
     </>
   );
 };
-
-// Hello guys!!!!

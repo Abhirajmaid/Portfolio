@@ -6,8 +6,10 @@ export const WorkData = [
       "Basic clone. With the functionalities: Functional Cart, Firebase Auth., Sign-up and Login,",
     tags: ["react", "firebase", "context-api", "react-router"],
 
-    demo: "https://clone-f2289.web.app/",
+    demo: "/",
     github: "https://github.com/Abhirajmaid/Amazon-clone",
+    img: "https://images.unsplash.com/photo-1646713369588-add27cc47d77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80",
+    side: true,
   },
   {
     id: 2,
@@ -22,8 +24,10 @@ export const WorkData = [
       "firebase hosting",
     ],
 
-    demo: "http://abhiraj.ml",
+    demo: "https://abhirajmaid.ml",
     github: "https://github.com/Abhirajmaid/Portfolio",
+    img: "https://images.unsplash.com/photo-1646713369588-add27cc47d77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80",
+    side: false,
   },
   {
     id: 3,
@@ -34,6 +38,8 @@ export const WorkData = [
 
     demo: "/",
     github: "https://github.com/Abhirajmaid/Meme_generator",
+    img: "https://images.unsplash.com/photo-1646713369588-add27cc47d77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80",
+    side: true,
   },
   {
     id: 4,
@@ -51,6 +57,8 @@ export const WorkData = [
 
     demo: "/",
     github: "https://github.com/Abhirajmaid/Portfolio",
+    img: "https://images.unsplash.com/photo-1646713369588-add27cc47d77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80",
+    side: false,
   },
   {
     id: 5,
@@ -61,5 +69,7 @@ export const WorkData = [
 
     demo: "http://getcoursesonline.netlify.app",
     github: "https://github.com/Abhirajmaid/Website-to-Showcase-online-courses",
+    img: "https://images.unsplash.com/photo-1646713369588-add27cc47d77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80",
+    side: true,
   },
 ];

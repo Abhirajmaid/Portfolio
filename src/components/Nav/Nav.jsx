@@ -1,30 +1,38 @@
 import React from "react";
+// import NavLink from "react-router-dom";
 import "./style.css";
 import { motion } from "framer-motion";
-import { NavLink } from "react-router-dom";
 
-export const Nav = (prop) => {
+const Nav = () => {
   return (
-    <NavLink
-      to={`/${prop.pagename}`}
-      className="nav-link"
-      style={{ color: prop.color }}
-      whileHover={{ scale: 1.1 }}
-    >
-      <motion.h2 whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-        {prop.pagename}
-      </motion.h2>
-    </NavLink>
+    <>
+      <motion.nav
+        className="nav"
+        initial={{ y: -400 }}
+        animate={{ y: 0 }}
+        transition={{
+          duration: 1.2,
+          type: "spring",
+          ease: "easeInOut",
+          delay: 0.8,
+        }}
+      >
+        <div className="main-menue">
+          <ul>
+            <li>
+              <a href="/"> Home </a>
+            </li>
+            <li>
+              <a href="/Work">Work</a>
+            </li>
+            <li>
+              <a href="/About">About</a>
+            </li>
+          </ul>
+        </div>
+      </motion.nav>
+    </>
   );
 };
 
-/**
- **Issue Resolve
- * !import { NavLink } from "react-router-dom";
- * ?Is not working here. So 'a' tag is used
- *
- * #<NavLink className="nav-link" to={{ pathname: `/${prop.pagename}` }}>
- * #   <h2>{prop.pagename}</h2>
- * #</NavLink>
- *
- */
+export default Nav;

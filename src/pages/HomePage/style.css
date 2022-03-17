@@ -1,21 +1,163 @@
-.container {
-  margin: 0;
-  padding: 0 6vw;
-  background-color: #000124;
-  height: 100vh;
+/*### -------WholePageBody-------- #*/
+.page {
+  background-color: rgb(10, 10, 10);
+  overflow: hidden;
 }
-.home-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  place-items: center;
-  height: 100vh;
-}
-.hello-contain > span {
-  font-size: 150px;
+
+/*## --------Navbar and Header-------- #*/
+.head-wrap {
   color: white;
-  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 65px 65px 0 65px;
 }
-.hello-contain {
-  margin-bottom: -300px;
+
+.head {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  margin-top: -10px;
+}
+
+/*## -----------Sections Container----------- #*/
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  max-width: 1240px;
+  padding: 0 15px;
+  align-items: center;
+  margin: 0 auto;
+  gap: 200px;
+}
+/*# ------------IntroSection------------ #*/
+.intro {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 556px;
+  top: -100px;
+  left: 30px;
+  gap: 20px;
+}
+.resume-btn-wrap {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+.work {
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+  padding: 10px;
+  width: 100%;
+}
+.projects-wrap {
+  display: flex;
+  flex-direction: column;
+  /* padding: 0 50px; */
+  gap: 150px;
+}
+.about {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 170px;
+  width: 100%;
+}
+.skills {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 30px;
+  margin-top: 100px;
+}
+.skills article {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 100px;
+}
+.about article {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 50px;
+}
+.contact {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+.contact article {
+  width: 50%;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-content {
+  color: white;
+  display: flex;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 955px) {
+  .contact article {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 825px) {
+  .head-wrap {
+    padding: 65px 10px 0 45px;
+  }
+  .head {
+    margin-top: 70px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .head-wrap {
+    padding: 65px 10px 0 25px;
+  }
+  .intro {
+    top: 100px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .about {
+    gap: 80px;
+  }
+}
+@media screen and (max-width: 675px) {
+  .container {
+    gap: 70px;
+  }
+  .intro {
+    width: 100%;
+    left: 0;
+    top: 50px;
+  }
+  .work {
+    gap: 80px;
+  }
+  .projects-wrap {
+    gap: 100px;
+  }
+  .work {
+    margin-top: 150px;
+  }
+  .skills article {
+    margin-bottom: -10px;
+  }
+  .about {
+    gap: 60px;
+  }
+  .about article {
+    margin-bottom: 0px;
+  }
 }

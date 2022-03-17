@@ -1,0 +1,36 @@
+.skills-wrap {
+  display: flex;
+  gap: 30px;
+}
+.skills-colomn-wrap {
+  width: 100%;
+  height: 100%;
+}
+.skills-colomn-wrap h3 {
+  color: white;
+  font-family: "panchang", sans-serif;
+  font-size: clamp(12px, 8px + 3vw, 24px);
+  margin-bottom: 20px;
+}
+.skills-colomn-wrap ul {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  gap: 5px;
+}
+.skills-colomn-wrap ul li {
+  text-decoration: none;
+  letter-spacing: -1px;
+  font-size: clamp(8px, 3px + 3vw, 20px);
+}
+@media screen and (max-width: 670px) {
+  .skills-wrap {
+    flex-wrap: wrap;
+    gap: 0;
+  }
+  .skills-colomn-wrap {
+    margin-top: 40px;
+  }
+}

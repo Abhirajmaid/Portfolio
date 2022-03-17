@@ -1,0 +1,115 @@
+.contact-wrap {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+}
+.mail-text-wrap {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  color: #ffefda;
+}
+.mail-text-wrap p {
+  width: 45%;
+  font-size: 15px;
+  line-height: 17px;
+  font-weight: 400;
+  letter-spacing: -0.8px;
+}
+.mail-wrap {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.contact-mail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #dfd3c3;
+  line-height: 1.2rem;
+  background: 0 0;
+  border: none;
+  outline: 0;
+  font-family: "panchang", sans-serif;
+  position: relative;
+}
+.contact-mail a {
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #dfd3c3;
+  z-index: 99;
+}
+.contact-mail::after {
+  content: "";
+  position: absolute;
+  left: -30px;
+  transform: rotate(2deg);
+  /* background-image: url(../../assets/Images/brush-stroks.png); */
+  border: 2px solid rgba(255, 252, 223, 0.507);
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 115%;
+  height: 450%;
+}
+@media screen and (max-width: 1100px) {
+  .contact-mail a {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 880px) {
+  .contact-mail a {
+    font-size: 20px;
+  }
+  .mail-text-wrap {
+    justify-content: flex-start;
+  }
+  .mail-text-wrap p {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 770px) {
+  .contact-wrap {
+    flex-direction: column;
+  }
+  .mail-text-wrap {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .mail-text-wrap p {
+    width: 90%;
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .mail-wrap {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .contact-mail a {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .contact-wrap {
+    flex-direction: column;
+  }
+  .mail-text-wrap {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .mail-text-wrap p {
+    width: 90%;
+    font-size: 15px;
+    line-height: 17px;
+  }
+  .mail-wrap {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .contact-mail a {
+    font-size: clamp(12px, 9px + 1.3vw, 20px);
+  }
+}
