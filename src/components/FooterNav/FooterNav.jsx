@@ -15,6 +15,9 @@ const FooterNav = () => {
               Eternalmac
             </a>
           </li>
+          <li>
+            <a href="#home">Back to Top</a>
+          </li>
         </ul>
       </div>
     </nav>

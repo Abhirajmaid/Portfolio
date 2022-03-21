@@ -53,9 +53,17 @@ const WorkCard = (prop) => {
                 <h3>Visit</h3>
               </motion.a>
 
-              <a href={github} target="_blank" rel="noreferrer">
+              <motion.a
+                href={github}
+                target="_blank"
+                rel="noreferrer"
+                whileHover={{
+                  scale: 1.2,
+                  transition: { duration: 0.5, ease: "easeOut" },
+                }}
+              >
                 <Icon icon="bi:github" style={style} />
-              </a>
+              </motion.a>
             </div>
           </div>
         </div>

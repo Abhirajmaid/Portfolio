@@ -10,7 +10,7 @@
 }
 .connect-container {
   width: 40vw;
-  height: 70vh;
+  height: 450px;
   background-color: white;
   border-radius: 7px;
   padding: 20px;
@@ -39,8 +39,10 @@
   color: black;
   width: 85%;
   border: none;
-  border-bottom: 1px solid rgb(77, 77, 77);
+  border: 1px solid rgb(77, 77, 77);
   outline: none;
+  margin-bottom: 9px;
+  padding-left: 5px;
 }
 .input:focus,
 .textarea:focus {

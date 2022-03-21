@@ -2,9 +2,11 @@ import React, { useState, useEffect } from "react";
 import NormalizeStyle from "./Global/normalizeStyle";
 import { Contact, Home, Loader } from "./pages";
 import "./Global/ScrollBar.css";
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
+import { AnimatePresence } from "framer-motion";
 
 export const App = () => {
+  const location = useLocation();
   const [loading, setLoding] = useState(false);
 
   useEffect(() => {
@@ -16,13 +18,12 @@ export const App = () => {
   return (
     <>
       <NormalizeStyle />
-      {/* <Loader /> */}
-      <Router>
-        <Routes>
+      <AnimatePresence exitBeforeEnter>
+        <Routes location={location} key={location.key}>
           <Route exact path="/" element={loading ? <Loader /> : <Home />} />
           <Route exact path="/contact" element={<Contact />} />
         </Routes>
-      </Router>
+      </AnimatePresence>
     </>
   );
 };

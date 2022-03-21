@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "./style.css";
+import { NavLink } from "react-router-dom";
 
 const TextVarient = {
   initial: {
@@ -29,7 +30,7 @@ const ContactBtn = () => {
       }}
     >
       <h3>
-        <a href="/contact" target="_blank" rel="">
+        <NavLink to="/contact">
           <motion.div
             variants={TextVarient}
             initial="initial"
@@ -38,7 +39,7 @@ const ContactBtn = () => {
             <span>Contact </span>
             <span>Me</span>
           </motion.div>
-        </a>
+        </NavLink>
       </h3>
     </motion.div>
   );

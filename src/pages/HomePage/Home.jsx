@@ -3,6 +3,7 @@ import React from "react";
 import "./style.css";
 
 import { WorkData } from "../../data/WorkData";
+import { motion } from "framer-motion";
 
 import {
   ContactBtn,
@@ -27,8 +28,12 @@ const Home = () => {
 
   return (
     <>
-      <div className="page">
-        <div className="head-wrap">
+      <motion.div
+        className="page"
+        exit={{ x: "-100vw" }}
+        transition={{ ease: "easeInOut" }}
+      >
+        <div className="head-wrap" id="home">
           <Nav />
           <div className="head">
             <PageHeader />
@@ -48,7 +53,7 @@ const Home = () => {
               />
             </div>
           </section>
-          <section className="work">
+          <section className="work" id="work">
             <SectionTitle title="Selected Works :" />
             <div className="projects-wrap">{WCard}</div>
           </section>
@@ -58,7 +63,7 @@ const Home = () => {
             </article>
             <SkillsBox />
           </section>
-          <section className="about">
+          <section className="about" id="about">
             <article>
               <SectionTitle title="About Me and _Myself :" />
             </article>
@@ -83,7 +88,7 @@ const Home = () => {
             </footer>
           </section>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 };

@@ -33,3 +33,11 @@
   border-radius: 100px;
   top: 55%;
 }
+@media screen and (maxx-width: 400px) {
+  .loader-bar {
+    top: 56%;
+  }
+  .counter {
+    top: 57%;
+  }
+}

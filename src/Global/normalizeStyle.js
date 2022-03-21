@@ -14,7 +14,11 @@ const NormalizeStyle = createGlobalStyle`
 body{
     margin: 0;
     padding: 0;
+    background-color: rgb(10, 10, 10);
     font-family: 'Work Sans', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
 }
 
 `;
