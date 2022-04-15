@@ -21,21 +21,12 @@ export const AboutInfo = () => {
   return (
     <>
       <p>
-        I'm Programming enthusiast and fullstack Web developer. And I love
-        Web-dev.
-        <br />
-        <br />I Work with JavaScript, React, Next.js and lot other technologies.
-        I love using and working with new technologies. You can check my skills
-        section above.
-        {/* checkout my{" "}
-        <a href="/Skills" target="_blank" style={style}>
-          Skills Page
-        </a> */}
+        I am Programming enthusiast and fullstack Web developer.
         <br />
         <br />
-        I'm right now pursuing my BTech (Engineering) degree in IT branch and
-        honestly engineering is fun 😅.
-        <br />I also run NEWS media company{" "}
+        Currently pursuing my BTech (Engineering) degree in IT and honestly
+        engineering is fun 😅.
+        {/* <br />I also run NEWS media company{" "}
         <a
           href="https://www.eternalmac.com"
           target="_blank"
@@ -44,10 +35,10 @@ export const AboutInfo = () => {
         >
           Eternalmac.com
         </a>{" "}
-        Where we post all tech news for techies.
+        Where we post all tech news for techies. */}
         <br />
-        <br />I love exploring different of fields and I do 3d-designing and
-        animations in Blender. And I have few good{" "}
+        <br />I love exploring different kind of fields and I do 3d-designing
+        and animations in Blender. And I have few good{" "}
         <a
           href="https://www.artstation.com/codersground404"
           target="_blank"
@@ -61,9 +52,9 @@ export const AboutInfo = () => {
         <br />
         At last, Feel free to{" "}
         <a href="/contact" style={style}>
-          Contact ME
+          Contact ME.
         </a>{" "}
-        Wherever you can😁, We can listen to good POP music together 🎧
+        We can listen to good POP music together 🎧.
       </p>
     </>
   );

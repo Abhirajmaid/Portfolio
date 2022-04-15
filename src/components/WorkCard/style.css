@@ -33,7 +33,7 @@
 .work-img img {
   position: absolute;
   width: 400px;
-  height: 300px;
+  height: 250px;
   object-fit: fill;
   margin-left: 45px;
   filter: grayscale(0);
@@ -52,7 +52,7 @@
   margin-top: 5px;
   color: #3425ff;
   margin-bottom: 18px;
-  font-size: calc(0.6em + 0.3vw);
+  font-size: calc(0.6em + 0.4vw);
   font-weight: 400;
   border-top: 2px solid black;
   padding-top: 12px;

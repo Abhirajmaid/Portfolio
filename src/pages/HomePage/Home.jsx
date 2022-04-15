@@ -72,7 +72,7 @@ const Home = () => {
               <SocialConnect dim="clamp(20px, 18px + 5vw, 55px)" />
             </div>
           </section>
-          <section className="contact">
+          <section className="contact" id="connect">
             <article>
               <SectionTitle
                 title="Let's Have a Talk !"

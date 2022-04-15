@@ -7,10 +7,9 @@ import { AnimatePresence } from "framer-motion";
 
 export const App = () => {
   const location = useLocation();
-  const [loading, setLoding] = useState(false);
+  const [loading, setLoding] = useState(true);
 
   useEffect(() => {
-    setLoding(true);
     setTimeout(() => {
       setLoding(false);
     }, 2500);

@@ -95,6 +95,7 @@
   font-weight: 700;
   font-family: sans-serif;
   letter-spacing: 3px;
+  cursor: pointer;
 }
 .connect-form > h1 {
   font-size: 30px;

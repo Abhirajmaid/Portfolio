@@ -6,7 +6,11 @@ const FooterNav = () => {
       <div className="footer-menue">
         <ul>
           <li>
-            <a href="https://abhirajmaid.ml" target="_blank" rel="noreferrer">
+            <a
+              href="https://abhirajmaid.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               v1
             </a>
           </li>
