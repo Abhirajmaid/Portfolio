@@ -8,12 +8,12 @@
 
 <br/>
 
-<center>
+<div align="center">
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
 
-</center>
+</div>
 
 <h3 align="center">
     🔹
@@ -43,22 +43,6 @@ This project was built using these technologies 💥:
 **Fully Responsive**
 
 **Contact form with Email Functionality**
-
-## 🛠 Installation and Setup Instructions
-
-1. Installation: `npm install`
-
-2. In the project directory, you can run: `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
-
-## Usage Instructions
-
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
-
-### Show your support
+## Show your support
 
 Give a ⭐ if you like this website!
