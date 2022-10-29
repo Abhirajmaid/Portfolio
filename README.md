@@ -22,7 +22,7 @@
     <a href="https://github.com/Abhirajmaid/Portfolio/issues">Feature Suggestion</a>
 </h3>
 
-## Built With
+## Built
 
 My personal portfolio <a href="https://abhirajmaid.ml/" target="_blank">Abhiraj Maid</a> which Showcases about me, ny skills and projects and also build with React and Framer motion<br/>
 
@@ -31,18 +31,13 @@ This project was built using these technologies 💥:
 - React.js
 - JavaScript
 - Framer-Motion
-- Email.js
 - Firebase Hosting
 
 ## Features
 
-**Modern and Stunning looks**
-
-**Use of Framer-motion for cool transitions and animation.**
-
-**Fully Responsive**
-
-**Contact form with Email Functionality**
+- **Modern and Stunning looks**
+- **Fully Responsive**
+- **Contact form with Email Functionality**
 ## Show your support
 
 Give a ⭐ if you like this website!
